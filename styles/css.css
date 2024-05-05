@@ -84,7 +84,7 @@ a {
     text-align: center;
 }
 
-
+.container__catalog-content
 
 
 .catalog__title{
@@ -99,9 +99,24 @@ a {
    flex-wrap: wrap;
 }
 
+.container__middle-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+font-weight: bold;
+    width: 209px;
+    height: 16px;
+    left: 496px;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
 
 .container__text{
     margin-bottom: 25px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
