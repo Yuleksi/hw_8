@@ -24,10 +24,6 @@ a {
     display: inline-block;
 }
 
-/*.container{*/
-/*    display: flex;*/
-/*}*/
-
 
 /*Header*/
 
@@ -63,7 +59,7 @@ a {
     padding-top: 10px;
     width: 100px;
     height: 35px;
-    background-color: mediumseagreen;
+    background-color: var(--accent-color);
     color: white;
     border: none;
     border-radius: 5px;
@@ -125,10 +121,10 @@ a {
 
 .catalog__btn{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    padding: 5px 17px;
+    padding: 5px 25px;
     border-radius: 10px;
     cursor: pointer;
     background:var(--accent-color);
@@ -136,10 +132,11 @@ a {
     color: white;
     border: 1px solid var(--accent-color);
     transition:0.3s;
-    width: 140px;
+    margin-top: 20px;
+    width: 100px;
     height: 40px;
-    top: 216px;
-    left: 416px;
+    top: 500px;
+    left: 50%;
 }
 
 .btn:hover{
@@ -177,7 +174,7 @@ a {
 .container__wrap{
     display: flex;
     max-width: var(--content-width);
-    gap: 10px;
+    gap: 30px;
 }
 
 
@@ -217,7 +214,6 @@ a {
 .container__middle-text{
     margin-bottom: 50px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
 }
@@ -252,12 +248,12 @@ a {
 
 
 .container__catalog-content{
-    margin-left: 100px;
+   display: flex;
+    flex-direction: column;
+    margin-top: 90px;
 }
 
-.catalog__btn{
-    transform: translateX(350px) ;
-}
+
 
 
 /*Lower content*/
